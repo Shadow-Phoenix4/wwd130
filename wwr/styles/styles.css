@@ -1,62 +1,129 @@
 #background {
     height: 725px;
-    background-color: #e3ab42;
+    background-color: #141e0db3;
 }
+
 body {
-    background-color: #fcfbfb; 
+    background-color: #F0EAD6;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+
 }
+
+#hero_img {
+    width: 100%;
+}
+
+h2 {
+    margin: 0;
+}
+
 header {
-    background-color:rgba(20,30,13, .7);
+    background-color: #141e0db3;
 }
+
 nav a:hover {
     background-color: black;
     color: #d9c2a3;
 }
-#content{
+
+#content {
     max-width: 1600px;
-    margin:0 auto;
+    margin: 0 auto;
 }
+
 nav a {
     text-align: center;
     color: #fcfbfb;
     text-decoration: none;
+    padding: 35px;
 }
-#hero-msg h1, #hero-msg h4{
+
+#hero-msg h1,
+#hero-msg h4 {
     text-align: center;
 }
-.button-box{
+
+.button-box {
     text-align: center;
 }
-main{
+
+main {
     text-align: center;
 }
+
 .logo {
     width: 80px;
 }
-.book, .join {
+
+.book,
+.join {
     text-align: center;
-    background-color: #e3ab42;
+    background-color: #141e0db3;
     color: #fcfbfb;
     text-decoration: none;
-} 
- footer a {
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+
+footer .social img {
+    padding-top: 15px;
+}
+
+footer a {
     text-align: center;
     color: #fcfbfb;
     text-decoration: none;
-    background-color: #e3ab42;
-} 
+}
+
 footer p {
     font-size: 1.2em;
 }
+
 footer p a:hover {
     text-decoration: underline;
-}    
-.icon{
+}
+
+.icon {
     width: 80px;
+    padding-top: 10px;
 }
-footer{
-    background-color: #e3ab42;
+
+footer {
+    background-color: #141e0db3;
+    margin-top: 200px;
+    padding: 25px 50px;
 }
-.msg{
-    background-color: #e3ab42;
+
+.msg {
+    background-color: #141e0db3;
+    line-height: 1.5em;
+    padding-bottom: 15px;
+}
+
+.home-title {
+    font-family: 'Oswald', sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
+}
+
+.logo-link {
+    padding-top: 5px;
+}
+
+.rivers-card,
+.camping-card,
+.rapids-card {
+    margin: 200px 0;
+}
+
+img {
+    box-sizing: border-box;
+}
+
+.card-img {
+    border: 10px solid #141e0db3;
 }
