@@ -1,0 +1,28 @@
+#subhero {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    margin-top: -100px; 
+}
+.info{
+    width: 100%;
+}
+#subhero-box {
+    grid-column: 1/4;
+    grid-row: 1/3;
+    z-index: -1;
+}
+#subhero_img {
+    width: 100%;
+}
+#subhero-msg {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 100px;
+}
+.subpage-title {
+    font-size: 25px;
+    color: #6f7364;
+    font-family: 'Oswald', sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
+}
